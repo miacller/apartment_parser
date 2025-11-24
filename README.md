@@ -16,31 +16,31 @@ Robots.txt
 
 ## Tech stack
 Language & Core
-	•	Python 3.11 — основной язык разработки
-	•	Web Scraping:
-	•	Requests — обработка HTTP-запросов
-	•	BeautifulSoup (bs4) — парсинг HTML
-	•	tqdm — прогресс-бары
+	- Python 3.11 — основной язык разработки
+	- Web Scraping:
+	- Requests — обработка HTTP-запросов
+	- BeautifulSoup (bs4) — парсинг HTML
+	- tqdm — прогресс-бары
 
 Database
-	•	MySQL / MariaDB — хранение данных
-	•	mysql-connector-python — взаимодействие с БД
-	•	Автоматическое создание таблиц и проверка дубликатов
+	- MySQL / MariaDB — хранение данных
+	- mysql-connector-python — взаимодействие с БД
+	- Автоматическое создание таблиц и проверка дубликатов
 
 Configuration & Environment
-	•	.env — безопасное хранение параметров подключения
-	•	python-dotenv — загрузка переменных окружения
+	- .env — безопасное хранение параметров подключения
+	- python-dotenv — загрузка переменных окружения
 
 Project Structure & Code Organization
-	•	Модульная архитектура (scraper, db, utils)
-	•	Разделение логики по файлам
-	•	Использование собственного конфигурационного модуля
+	- Модульная архитектура (scraper, db, utils)
+	- Разделение логики по файлам
+	- Использование собственного конфигурационного модуля
 
 Tools & Development
-	•	Git / GitHub — контроль версий
-	•	Visual Studio — среда разработки
-	•	requirements.txt — зафиксированные зависимости
-	•	.gitignore — исключение временных файлов
+	- Git / GitHub — контроль версий
+	- Visual Studio — среда разработки
+	- requirements.txt — зафиксированные зависимости
+	- .gitignore — исключение временных файлов
 
 ## Функционал
 - Сбор ссылок на квартиры
