@@ -15,32 +15,33 @@ Robots.txt
 Парсер для сбора информации о квартирах с определенного сайта. Сохраняет данные в базу MySQL. Все параметры (URL, база данных) задаются через ".env".
 
 ## Tech stack
-Language & Core
-	- Python 3.11 — основной язык разработки
-	- Web Scraping:
-	- Requests — обработка HTTP-запросов
-	- BeautifulSoup (bs4) — парсинг HTML
-	- tqdm — прогресс-бары
+### Language & Core
+- **Python 3.11** — основной язык разработки  
 
-Database
-	- MySQL / MariaDB — хранение данных
-	- mysql-connector-python — взаимодействие с БД
-	- Автоматическое создание таблиц и проверка дубликатов
+### Web Scraping
+- **Requests** — обработка HTTP-запросов  
+- **BeautifulSoup (bs4)** — парсинг HTML  
+- **tqdm** — прогресс-бары  
 
-Configuration & Environment
-	- .env — безопасное хранение параметров подключения
-	- python-dotenv — загрузка переменных окружения
+### Database
+- **MySQL / MariaDB** — хранение данных  
+- **mysql-connector-python** — взаимодействие с БД  
+- Автоматическое создание таблиц и проверка дубликатов  
 
-Project Structure & Code Organization
-	- Модульная архитектура (scraper, db, utils)
-	- Разделение логики по файлам
-	- Использование собственного конфигурационного модуля
+### Configuration & Environment
+- **.env** — безопасное хранение параметров подключения  
+- **python-dotenv** — загрузка переменных окружения  
 
-Tools & Development
-	- Git / GitHub — контроль версий
-	- Visual Studio — среда разработки
-	- requirements.txt — зафиксированные зависимости
-	- .gitignore — исключение временных файлов
+### Project Structure & Code Organization
+- Модульная архитектура (`scraper`, `db`, `utils`)  
+- Разделение логики по файлам  
+- Использование собственного конфигурационного модуля  
+
+### Tools & Development
+- **Git / GitHub** — контроль версий  
+- **Visual Studio** — среда разработки  
+- **requirements.txt** — зафиксированные зависимости  
+- **.gitignore** — исключение временных файлов
 
 ## Функционал
 - Сбор ссылок на квартиры
