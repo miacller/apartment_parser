@@ -24,7 +24,7 @@ Robots.txt
 - **tqdm** — прогресс-бары  
 
 ### Database
-- **MySQL / MariaDB** — хранение данных  
+- **MySQL** — хранение данных  
 - **mysql-connector-python** — взаимодействие с БД  
 - Автоматическое создание таблиц и проверка дубликатов  
 
@@ -60,7 +60,7 @@ Robots.txt
 
 ## Установка
 1. Клонируйте репозиторий:
-git clone https://github.com/username/repo.git
+git clone https://github.com/miacller/repo.git
 2. Создайте виртуальное окружение:
 python -m venv venv
 source venv/bin/activate   # macOS/Linux
